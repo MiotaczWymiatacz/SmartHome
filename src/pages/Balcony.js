@@ -54,7 +54,6 @@ class Balcony extends Component {
       deviceName,
     };
     this.counter++;
-    console.log(device, this.counter);
 
     this.setState((prevState) => ({
       devices: [...prevState.devices, device],

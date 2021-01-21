@@ -55,7 +55,6 @@ class GuestRoom extends Component {
       deviceName,
     };
     this.counter++;
-    console.log(device, this.counter);
 
     this.setState((prevState) => ({
       devices: [...prevState.devices, device],
