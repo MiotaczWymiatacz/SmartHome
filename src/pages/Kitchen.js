@@ -23,7 +23,7 @@ class Kitchen extends Component {
       },
       {
         id: 2,
-        deviceName: "Air Conditioner",
+        deviceName: "Fan",
         toggle: true,
         alwaysRunning: false,
       },
